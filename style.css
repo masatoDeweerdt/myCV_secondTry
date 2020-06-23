@@ -1,0 +1,98 @@
+body {
+    font-family: "Space Mono", monospace;
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  h1,h2 {
+      color: rgb(216, 72, 72);
+      margin: 10px 0;
+    }
+    .title {
+      font-size: $titleSize;
+      font-weight: bold;
+    }
+    hr {
+      margin-top: 2%;
+      border-color: $secondColor;
+    }
+  
+  header {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 2%;
+    margin-bottom: 30px;
+    }
+
+    .name {
+        padding-left:  20px;
+    }
+
+    .logo {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        background-color: #e3e7de;
+    }
+    .logo img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+
+
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-bottom: 2%;
+    }
+  
+  .layout {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-column-gap: 2%;
+  }
+
+  .expertises ul {
+      list-style: outside;
+      padding-left: 20px;
+      margin: 100px 0 100px 0;
+  }
+
+  .expertisesTwo ul {
+    list-style: outside;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  .additional_skills {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-row-gap: 3%;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: $headerSize;
+    padding: 2% 2% 2% 0;
+  }
+  .email,
+  .website {
+    font-size: $defaultSize;
+  }
+  .education {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 3%;
+  }
+  
+  .work-experiences {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    height: 50vh;
+    background-color: #f4f3f1;
+    padding: 5%;
+    .description {
+      margin: 1%;
+      font-size: .8em;
+    }
+  }
